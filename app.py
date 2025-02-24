@@ -13,7 +13,6 @@ load_dotenv()
 # Initialize Groq
 llm = ChatGroq(
     api_key=os.environ.get("GROQ_API_KEY"),
-    # api_key="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",
     model_name="llama-3.1-8b-instant"
 )
 
